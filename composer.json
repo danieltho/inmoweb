@@ -1,0 +1,33 @@
+{
+    "name": "danieltho/inmo-web",
+    "description": "Web completa para inmobiliarias",
+    "type": "framework/laravel",
+    "require": {
+        "laravel/framework": "5.8.*"
+    },
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Danieltho",
+            "email": "g.danieltho@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DanielSann\\InmoWeb\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DanielSann\\InmoWeb\\InmoWebServiceProvider"
+            ]
+        }
+    }
+}
